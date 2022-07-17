@@ -1,0 +1,130 @@
+
+.text-zone h1{
+    font-size: 3rem;
+    line-height: 100px;
+    letter-spacing: 3px;
+    position: relative;
+    color: #fff;
+    padding: 20px;
+}
+.text-zone h1::before{
+    content: '<h1>';
+    position: absolute;
+    top: -80px;
+    left: -10px;
+    font-size: 1.2rem;
+    font-family: 'La Belle Aurore', cursive;
+    color: #760202;
+
+}
+.text-zone h1::after{
+    content: '</h1>';
+    position: absolute;
+    bottom: -50px;
+    left: 800px;
+    font-size: 1.2rem;
+    font-family: 'La Belle Aurore', cursive;
+    color: #760202;
+    letter-spacing: 3px;
+}
+.text-zone img{
+    width: 35px;
+    height: 50px;
+}
+.text-zone .gray-text{
+    margin-top: 30px;
+    color: #000;
+    letter-spacing: 3px;
+    font-size: 14px;
+    position: absolute;
+    transition: 1s;
+    width: 50%;
+}
+
+.text-zone .gray-text:hover{
+    margin-top: 30px;
+    color: #fff;
+    letter-spacing: 3px;
+    font-size: 18px;
+    font-weight: 600;
+    position: absolute;
+    border-style: solid;
+    background-color: rgba(0, 0, 0, 0.505);
+    box-shadow: 5px 10px 2px #000;
+    border-color: rgba(255, 255, 255, 0);
+    padding: 5px;
+}
+
+.text-zone{
+    display: flex;
+    flex-direction: column;
+}
+
+.hii{
+    transition: 1s;
+    font-size: 120px!important;
+    color: #000!important;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 12px 12px 22px #000;
+}
+
+.name{
+    transition: 1s;
+}
+
+.name:hover{
+    color: #fff!important;
+    font-size: 140px;
+}
+
+.namee{
+    transition: 1s;
+    font-size: 120px;
+}
+
+.namee:hover{
+    color: #fff!important;
+    font-size: 140px;
+}
+
+.TEEEXT{
+    display: flex;
+
+}
+
+.AudioButton{
+    margin-top: 100px;
+}
+
+
+
+
+.fake-word{
+    font-size: 350px;
+    font-weight: 900;
+    background-color: transparent;
+    letter-spacing: -1.5cm;
+
+}
+
+.work{
+    display: flex;
+    justify-content: left;
+    margin-top: -0px;
+    margin-left: 20px;
+    padding-top: -50px;
+    width: 600px;
+}
+
+.work div h1{
+    background-color: #000;
+    padding: 50px;
+    font-size: 69px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    margin-top: 170px;
+    padding-right:50px;
+    padding-left: 90px;
+    margin-left: -90px ;
+}
+

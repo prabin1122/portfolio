@@ -1,0 +1,51 @@
+.MyName{
+    color: #fff;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.MyName>h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 28px;
+    letter-spacing: 0.05cm;
+}
+
+.MyName>h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+
+}
+
+.myimg > img{
+    width: 175px;
+    position:relative;
+    display: flex;
+    padding: 15px;
+    height: 200px;
+}
+
+
+
+.linkk{
+    color: transparent;
+    text-shadow: 0px 0px 0px #fff;
+    text-align: center;
+    border-top-width: 2px;
+    border-top-color: rgb(83, 81, 81);
+    border-top-style: solid;
+    padding-top: 15px;
+    margin-bottom: -15px;
+    position: relative;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.06cm;
+    transition : 2s;
+
+}
+
+.linkk:hover{
+    color: #fff;
+    text-shadow: 2px 2px 15px #fff;
+    font-size: 24px;
+}

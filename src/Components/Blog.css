@@ -1,0 +1,182 @@
+.blog-container{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+    justify-content: space-evenly;
+    padding: 80px;
+    border-radius: 50px;
+    margin-left: -70px;
+    transform: (0.95);
+}
+
+.blog-container2{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+    
+    justify-content: space-evenly;
+    padding: 80px;
+    border-radius: 50px;
+    margin-left: -70px;
+}
+
+
+.blog-containhc{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 10px -4px 10px rgb(0, 0, 0);
+    border: solid 4px rgb(61, 60, 59);
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    margin: 20px;
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    transition: 2s;
+
+}
+.blog-containhc > hr{
+    color: red;
+}
+
+
+.blog-containhc:hover{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0);
+    border: none;
+
+}
+
+.blog-containhc > h3{
+    color: rgb(170, 0, 0);
+    text-shadow: 0px 2px 12px rgb(213, 36, 0);
+    padding: 10px;
+    transition: 2s;
+    font-size: 24px;
+    text-align: center;
+}
+
+.blog-containhc > h1{
+    color: black;
+    text-shadow: 2px 2px 2px #fff;
+    padding: 10px;
+    transition: 2s;
+}
+
+.blog-containhc > h1:hover{
+    color: #fff;
+    text-shadow: 2px 2px 2px rgb(44, 43, 43);
+    padding: 10px;
+}
+.blog-containhc > h5{
+    color: #fff;
+    padding-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.05cm;
+}
+
+
+
+
+.blog-containjs{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 10px -4px 10px rgb(0, 0, 0);
+    border: solid 4px rgb(61, 60, 59);
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    margin: 20px;
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    transition: 2s;
+
+}
+
+
+
+.blog-containjs:hover{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0);
+    border: none;
+
+}
+
+.blog-containjs > h3{
+    color: rgb(0, 170, 0);
+    text-shadow: 0px 2px 12px rgb(36, 213, 0);
+    padding: 10px;
+    transition: 2s;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.blog-containjs > h1{
+    color: black;
+    text-shadow: 2px 2px 2px #fff;
+    padding: 10px;
+    transition: 2s;
+}
+
+.blog-containjs > h1:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.blog-containjs > h5{
+    color: #fff;
+    padding-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.05cm;
+}
+
+.blog-containrj{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 10px -4px 10px rgb(0, 0, 0);
+    border: solid 4px rgb(61, 60, 59);
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    margin: 20px;
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    transition: 2s;
+
+}
+
+
+
+.blog-containrj:hover{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0);
+    border: none;
+
+}
+
+.blog-containrj > h3{
+    color: rgb(0, 0, 170);
+    text-shadow: 0px 2px 12px rgb(0, 36, 213);
+    padding: 10px;
+    transition: 2s;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.blog-containrj > h1{
+    color: black;
+    text-shadow: 2px 2px 2px #fff;
+    padding: 10px;
+    transition: 2s;
+}
+
+.blog-containrj > h1:hover{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    padding: 10px;
+}
+
+.blog-containrj > h5{
+    color: #fff;
+    padding-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.05cm;
+}

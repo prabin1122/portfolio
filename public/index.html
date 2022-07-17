@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -24,11 +24,58 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>Prabin Karki Portfolio.</title>
+    <style>
+      #root {
+        position: absolute;
+        z-index: 22;
+      }
+
+      body{
+        overflow-x: hidden;
+        background-image: url('https://images.unsplash.com/photo-1547414876-def1cc35dcbc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+      }
+
+      button{
+        background-color:#098;
+      }
+
+      button:hover{
+        background-color:rgb(179, 234, 227);
+      }
+
+      #canvass {
+        position: absolute;
+        background-image: linear-gradient(to right,white,rgba(0, 0, 0, 0))   
+      }
+
+      #canvas {
+        width: 98%;
+      }
+
+      #video{
+        position: relative;
+        width: 100%;
+        transform: rotate(180deg);
+        z-index: -1;
+        
+      }
+      .main{
+        position: relative;
+        z-index: 22;
+      }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
+    <div class="main">
+      <div id="root">
+      </div>
+      <div id="canvass">
+        <canvas id="canvas"></canvas>
+      </div>
+    </div>
+    <video loop autoplay muted src="https://cdn.kapwing.com/final_62d3e7b5886d6c005e36f117_925363.mp4"  type="video/mp4" id="video"></video>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -40,4 +87,8 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/53148/perlin.js'></script>
+  <script src="./animation.js"></script>
+  
+  
 </html>
